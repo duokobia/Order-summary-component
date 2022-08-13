@@ -54,17 +54,20 @@ A sketch was used to approximate dimensions and how to set up the flex layout. R
 
 ### What I learned
 
-Desktop first approach was used with an intent to reduce lines of code required for media query for mobile screens. I tried writing a minimalistic code for the media query like I do with CSS Grid but could not achieve that in this sprint. I think it was because I used flexbox. I also tried using clamp for responsiveness but could not achieve much with that as well. Utility classes was used in the HTML like in Tailwind. 
+Utility classes were used in the HTML like in Tailwind. With this approach, I had to almost rewrite the the stylesheet for mobile screens. It refused to inherit the desktop properties. Achieving this for me is easier with CSS Grid than flexbox. I struggled to reduce the media query code with this approach. Using clamp() for the width of the container to make banner responsiveness did not work as expected too. 
 
-I found this project interesting and am opened to learning better ways of improving my coding skill. 
+Despite the struggles, I still found this project interesting and am opened to learning better ways of improving my coding skill. 
+
 
 
 ### Continued development
 
-- use common frameworks such as Tailwind and Bootstrap for future projects.
+- use clamp() for responsiveness of banners. 
 - better naming convention used for future projects such as BEM.
 - Media query with advanced website layouts.
 - writing cleaner, scalable and easy to maintain code.
+- use common frameworks such as Tailwind and Bootstrap for future projects.
+
 
 
 ### Useful resources
