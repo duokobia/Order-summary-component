@@ -54,9 +54,11 @@ A sketch was used to approximate dimensions and how to set up the flex layout. R
 
 ### What I learned
 
-Utility classes were used in the HTML like in Tailwind. With this approach, I had to almost rewrite the the stylesheet for mobile screens. It refused to inherit the desktop properties. Achieving this for me is easier with CSS Grid than flexbox. I struggled to reduce the media query code with this approach. Using clamp() for the width of the container to make banner responsiveness did not work as expected too. 
+Using utility classes in the HTML, as in Tailwind approach, was fun. With this approach, I had to almost rewrite the stylesheet for media queries. I could not make mobile screens inherit the desktop properties easily. Achieving this for me is easier when I use CSS Grid for the container. I could not use clamp() property to make banner responsive across a wide range of screen sizes as expected.
 
-Despite the struggles, I still found this project interesting and am opened to learning better ways of improving my coding skill. 
+Despite the struggles, I still found this project interesting. I am eager to improve my frontend development skills by working on more projects in order to write cleaner and more efficient codes. 
+
+I will appreciate and welcome all suggestions please.
 
 
 
