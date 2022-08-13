@@ -1,12 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/queries.css">
+
+    <!-- Google Fonts Links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Red+Hat+Display:wght@500;700;900&display=swap"
+        rel="stylesheet">
+
+
     <title>Frontend Mentor | Order Summary Component</title>
 </head>
+
 <body>
-<div>Order summary component</div>
+    <main class="container p-rel p-center d-grid font-primary bg-blue-200">
+        <div class="card bg-white rad-200">
+            <img src="./images/illustration-hero.svg" alt="card-image" class="card__image rad-100" />
+            <div class="card__article pad-300 space-btw clr-blue">
+                <h1 class="card__article-heading d-flex h-center lh-h1 fw-black fs-800 pad-200">Order Summary</h1>
+                <p class="card__article-paragraph d-inblock text-center pad-200 light-opacity">
+                    <span>You can now listen to millions of songs,</span>
+                    <span>audiobooks, and podcasts on any device</span>
+                    <span>anywhere you like!</span>
+                </p>
+                <div class="pad-200">
+                    <div class="card__article-plan d-flex v-center pad-250 bg-blue-100 rad-150">
+                        <img src="./images/icon-music.svg" alt="icon" class="card__article-plan-icon" />
+                        <ul class="card__article-plan-list d-flex space-btw pad-l" role=list>
+                            <li>
+                                <span class="list-duration fw-black">Annual Plan</span>
+                                <span class="list-price light-opacity">$59.99/year</span>
+                            </li>
+                            <li>
+                                <span class="change c-pointer text-underlined fw-bold">Change</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="pad-225">
+                        <button
+                            class="card__article-btn d-block w-100 bg-blue-400 pad-100 clr-white no-border rad-150 fw-black c-pointer shadow-lg">Proceed
+                            to Payment
+                        </button>
+                    </div>
+                    <p class="card__article-cancelorder d-flex h-center fw-bold med-opacity c-pointer">Cancel Order</p>
+                </div>
+            </div>
+        </div>
+    </main>
 </body>
+
 </html>
